@@ -4,12 +4,14 @@ Theme URI: http://wordpress.org/themes/colorlight
 Author: NodeCode
 Author URI: http://nodecode.de/
 Description: ColorLight is a clean and responsive theme for WordPress, based on Twenty Twelve.
-Version: 1.0
+Version: 1.0.1
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: light, silver, gray, white, green, blue, one-column, two-columns, right-sidebar, fluid-layout, responsive-layout, custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-images, flexible-header, full-width-template, microformats, post-formats, rtl-language-support, sticky-post, theme-options, translation-ready, threaded-comments
 Text Domain: colorlight
 Template: twentytwelve
+
+ColorLight Copyright NodeCode 2014
 */
 
 
@@ -26,20 +28,15 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 }
 body {
 	line-height: 1;
+	background-color:#81d742;
 	background-attachment: fixed;
 	background-image: -moz-radial-gradient(center, ellipse cover,  rgba(255,255,255,0.75) 0%, rgba(255,255,255,0) 100%);
-background-image: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(255,255,255,0.75)), color-stop(100%,rgba(255,255,255,0)));
-background-image: -webkit-radial-gradient(center, ellipse cover,  rgba(255,255,255,0.75) 0%,rgba(255,255,255,0) 100%);
-background-image: -o-radial-gradient(center, ellipse cover,  rgba(255,255,255,0.75) 0%,rgba(255,255,255,0) 100%);
-background-image: -ms-radial-gradient(center, ellipse cover,  rgba(255,255,255,0.75) 0%,rgba(255,255,255,0) 100%);
-background-image: radial-gradient(ellipse at center,  rgba(255,255,255,0.75) 0%,rgba(255,255,255,0) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bfffffff', endColorstr='#00ffffff',GradientType=1 );
-
-
-
-
-
-
+	background-image: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(255,255,255,0.75)), color-stop(100%,rgba(255,255,255,0)));
+	background-image: -webkit-radial-gradient(center, ellipse cover,  rgba(255,255,255,0.75) 0%,rgba(255,255,255,0) 100%);
+	background-image: -o-radial-gradient(center, ellipse cover,  rgba(255,255,255,0.75) 0%,rgba(255,255,255,0) 100%);
+	background-image: -ms-radial-gradient(center, ellipse cover,  rgba(255,255,255,0.75) 0%,rgba(255,255,255,0) 100%);
+	background-image: radial-gradient(ellipse at center,  rgba(255,255,255,0.75) 0%,rgba(255,255,255,0) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bfffffff', endColorstr='#00ffffff',GradientType=1 );
 }
 ol,
 ul {
@@ -525,7 +522,7 @@ a:hover {
 }
 .site-header h1 a,
 .site-header h2 a {
-	color: #515151;
+	color: #09F;
 	display: inline-block;
 	text-decoration: none;
 }
@@ -1454,11 +1451,15 @@ img#wpstats {
 		width: 100%;
 	}
 	.widget-area {
+		float:right;
+		width: 26.041666667%;
+	}
+	body:not(.template-front-page) .widget-area {
+		float: none;
 		position: absolute;
 		right: -40px;
 		top:-50px;
 		bottom:-25px;
-		width: 26.041666667%;
 		border-left: 1px solid #EDEDED;
 		border-bottom: 1px solid #EDEDED;
 		padding: 50px 40px;
@@ -1486,21 +1487,13 @@ img#wpstats {
 		width: 100%;
 		padding: 0 40px;
 		background: #fcfcfc;
-background: -moz-linear-gradient(top,  #fcfcfc 0%, #f4f4f4 100%);
-background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fcfcfc), color-stop(100%,#f4f4f4));
-background: -webkit-linear-gradient(top,  #fcfcfc 0%,#f4f4f4 100%);
-background: -o-linear-gradient(top,  #fcfcfc 0%,#f4f4f4 100%);
-background: -ms-linear-gradient(top,  #fcfcfc 0%,#f4f4f4 100%);
-background: linear-gradient(to bottom,  #fcfcfc 0%,#f4f4f4 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfcfc', endColorstr='#f4f4f4',GradientType=0 );
-
-
-
-
-
-
-
-
+		background: -moz-linear-gradient(top,  #fcfcfc 0%, #f4f4f4 100%);
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fcfcfc), color-stop(100%,#f4f4f4));
+		background: -webkit-linear-gradient(top,  #fcfcfc 0%,#f4f4f4 100%);
+		background: -o-linear-gradient(top,  #fcfcfc 0%,#f4f4f4 100%);
+		background: -ms-linear-gradient(top,  #fcfcfc 0%,#f4f4f4 100%);
+		background: linear-gradient(to bottom,  #fcfcfc 0%,#f4f4f4 100%);
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfcfc', endColorstr='#f4f4f4',GradientType=0 );
 	}
 	.main-navigation ul {
 		margin: 0;
