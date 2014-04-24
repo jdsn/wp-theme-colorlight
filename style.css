@@ -1,17 +1,18 @@
 /*
-Theme Name: ColorLight
-Theme URI: http://wordpress.org/themes/colorlight
-Author: NodeCode
-Author URI: http://nodecode.de/
-Description: ColorLight is a clean and responsive theme for WordPress, based on Twenty Twelve.
-Version: 1.0.3
+Theme Name: ColorLight Frederking
+Theme URI: http://frederking-informatik.de
+Author: NodeCode (nodecode.de) and jdsn (jdsn.de)
+Author URI: http://jdsn.de
+Description: ColorLight Frederking is a clean and responsive theme for WordPress, based on Twenty Twelve resp. ColorLight.
+Version: 1.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: light, silver, gray, white, green, blue, one-column, two-columns, right-sidebar, fluid-layout, responsive-layout, custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-images, flexible-header, full-width-template, microformats, post-formats, rtl-language-support, sticky-post, theme-options, translation-ready, threaded-comments
-Text Domain: colorlight
+Text Domain: colorlight-frederking
 Template: twentytwelve
 
 ColorLight Copyright NodeCode 2014
+Forked as Colorlight Frederking by jdsn 2014
 */
 
 
@@ -464,15 +465,19 @@ body {
 	text-rendering: optimizeLegibility;
 	color: #444;
 }
+/*
 body.custom-font-enabled {
 	font-family: "Open Sans", Helvetica, Arial, sans-serif;
 }
+*/
 a {
 	outline: none;
-	color: #09f;
+	/*color: #09f;*/
+	color: #757575;
 }
 a:hover {
-	color: #006bb2;
+	/*color: #006bb2;*/
+	color: #000080;
 }
 
 /* Assistive text */
@@ -522,13 +527,15 @@ a:hover {
 }
 .site-header h1 a,
 .site-header h2 a {
-	color: #09F;
+	/*color: #09F;*/
+	color: #000080;
 	display: inline-block;
 	text-decoration: none;
 }
 .site-header h1 a:hover,
 .site-header h2 a:hover {
-	color: #09f;
+	/*color: #09f;*/
+	color: #000080;
 }
 .site-header h1 {
 	font-size: 24px;
@@ -566,7 +573,8 @@ a:hover {
 	color: #5e5e5e;
 }
 .main-navigation a:hover {
-	color: #09f;
+	/*color: #09f;*/
+	color: #000080;
 }
 .main-navigation ul.nav-menu,
 .main-navigation div.nav-menu > ul {
@@ -623,7 +631,8 @@ section[role="banner"] {
 	color: #757575;
 }
 .widget-area .widget a:hover {
-	color: #09f;
+	/*color: #09f;*/
+	color: #000080;
 }
 .widget-area .widget a:visited {
 	color: #9f9f9f;
@@ -652,7 +661,8 @@ footer[role="contentinfo"] a {
 	color: #686868;
 }
 footer[role="contentinfo"] a:hover {
-	color: #09f;
+	/*color: #09f;*/
+	color: #000080;
 }
 
 
@@ -698,7 +708,8 @@ footer[role="contentinfo"] a:hover {
 }
 .comments-link a:hover,
 .entry-meta a:hover {
-	color: #09f;
+	/*color: #09f;*/
+	color: #000080;
 }
 article.sticky .featured-post {
 	border-top: 4px double #ededed;
@@ -779,7 +790,9 @@ article.sticky .featured-post {
 }
 .entry-content a:visited,
 .comment-content a:visited {
-	color: #9f9f9f;
+	/*color: #9f9f9f; too bright*/
+	/*color: #444;  same as text*/
+	color: #757575;
 }
 .entry-content ol,
 .comment-content ol,
@@ -1130,7 +1143,8 @@ article.format-quote .entry-content blockquote {
 	color: #757575;
 }
 .format-status .entry-header header a:hover {
-	color: #09f;
+	/*color: #09f;*/
+	color: #000080;
 }
 .format-status .entry-header img {
 	float: left;
@@ -1192,7 +1206,8 @@ article.format-quote .entry-content blockquote {
 	color: #5e5e5e;
 }
 .comments-area article header a:hover {
-	color: #09f;
+	/*color: #09f;*/
+	color: #000080;
 }
 .comments-area article header cite a {
 	color: #444;
@@ -1241,7 +1256,8 @@ a.comment-edit-link {
 }
 a.comment-reply-link:hover,
 a.comment-edit-link:hover {
-	color: #09f;
+	/*color: #09f;*/
+	color: #000080;
 }
 .commentlist .pingback {
 	line-height: 1.714285714;
@@ -1337,7 +1353,8 @@ a.comment-edit-link:hover {
 	color: #757575;
 }
 .template-front-page .widget-area .widget li a:hover {
-	color: #09f;
+	/*color: #09f;*/
+	color: #000080;
 }
 .template-front-page .widget-area .widget_text img {
 	float: left;
@@ -1475,6 +1492,7 @@ img#wpstats {
 	.site-header h1,
 	.site-header h2 {
 		text-align: left;
+		color: #000080;
 	}
 	.site-header h1 {
 		font-size: 26px;
