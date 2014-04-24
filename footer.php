@@ -11,7 +11,8 @@
 ?>
 	</div><!-- #main .wrapper -->
 	<footer id="colophon" role="contentinfo">
-		<div class="site-info">Theme <a href="http://wordpress.org/themes/colorlight" target="_blank">ColorLight</a> by NodeCode
+		<div class="site-info">
+			<?php printf( __( 'Theme %s by %s', 'colorlight' ), '<a href="http://wordpress.org/themes/colorlight" target="_blank">ColorLight</a>', 'NodeCode' ); ?>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->
