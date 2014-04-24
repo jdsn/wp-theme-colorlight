@@ -4,7 +4,7 @@ Theme URI: http://wordpress.org/themes/colorlight
 Author: NodeCode
 Author URI: http://nodecode.de/
 Description: ColorLight is a clean and responsive theme for WordPress, based on Twenty Twelve.
-Version: 1.0.1
+Version: 1.0.2
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: light, silver, gray, white, green, blue, one-column, two-columns, right-sidebar, fluid-layout, responsive-layout, custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-images, flexible-header, full-width-template, microformats, post-formats, rtl-language-support, sticky-post, theme-options, translation-ready, threaded-comments
@@ -28,7 +28,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 }
 body {
 	line-height: 1;
-	background-color:#81d742;
+	background-color: #81d742;
 	background-attachment: fixed;
 	background-image: -moz-radial-gradient(center, ellipse cover,  rgba(255,255,255,0.75) 0%, rgba(255,255,255,0) 100%);
 	background-image: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(255,255,255,0.75)), color-stop(100%,rgba(255,255,255,0)));

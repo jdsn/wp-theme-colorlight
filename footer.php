@@ -11,7 +11,7 @@
 ?>
 	</div><!-- #main .wrapper -->
 	<footer id="colophon" role="contentinfo">
-		<div class="site-info">Theme <a href="http://wordpress.org/themes/colorlight">ColorLight</a> by <a href="http://nodecode.de/" title="Node.js Tutorial">NodeCode</a>
+		<div class="site-info">Theme <a href="http://wordpress.org/themes/colorlight" target="_blank">ColorLight</a> by NodeCode
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->

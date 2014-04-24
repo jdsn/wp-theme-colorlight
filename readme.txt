@@ -18,6 +18,8 @@ Unless otherwise specified, all the theme files, scripts and images are licensed
 This theme is based on Twenty Twelve. The difference is mainly in the navigation menu, the sidebar and the background gradient.
 
 == Changelog ==
+= 1.0.2 =
+* Minor changes
 = 1.0.1 =
 * Minor bug fixes
 = 1.0.0 =
